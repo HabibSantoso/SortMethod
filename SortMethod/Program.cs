@@ -74,7 +74,16 @@ namespace SortMethod
 
         static void Main(string[] args)
         {
-            
+            Program bubbleSort = new Program();
+
+            bubbleSort.read();
+
+            bubbleSort.BubbleSortArray();
+
+            bubbleSort.display();
+
+            Console.WriteLine("\n\nTekan tombol apa saja untuk keluar.");
+            Console.Read();
         }
     }
 }
