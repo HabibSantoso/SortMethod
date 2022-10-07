@@ -41,6 +41,22 @@ namespace SortMethod
             }
         }
 
+        public void display()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("Element array yang telah terseusun");
+            Console.WriteLine("----------------------------");
+
+            for (int j = 0; j<n; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
+        }
+
+        
+
         static void Main(string[] args)
         {
             
