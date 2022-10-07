@@ -8,9 +8,12 @@ namespace SortMethod
 {
     class Program
     {
+        private int[] a = new int[7];
+        private int n;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            
         }
     }
 }
